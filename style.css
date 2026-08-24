@@ -1,0 +1,425 @@
+/*==========================
+BK Clothing Premium CSS
+==========================*/
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fafafa;
+color:#222;
+overflow-x:hidden;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+img{
+width:100%;
+display:block;
+}
+
+.container{
+width:90%;
+max-width:1400px;
+margin:auto;
+}
+
+/* Top Bar */
+
+.top-bar{
+background:#111;
+color:#fff;
+height:42px;
+padding:0 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+font-size:14px;
+}
+
+.top-bar a{
+color:#fff;
+margin-left:20px;
+}
+
+/* Header */
+
+header{
+position:sticky;
+top:0;
+left:0;
+width:100%;
+background:#fff;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 60px;
+box-shadow:0 5px 25px rgba(0,0,0,.08);
+z-index:999;
+}
+
+.logo img{
+height:65px;
+width:auto;
+}
+
+nav{
+display:flex;
+gap:28px;
+}
+
+nav a{
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#b8860b;
+}
+
+.header-icons{
+display:flex;
+gap:20px;
+font-size:22px;
+cursor:pointer;
+}
+
+.header-icons i:hover{
+color:#b8860b;
+}
+
+/* Hero */
+
+.hero{
+min-height:90vh;
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+padding:80px 60px;
+background:linear-gradient(135deg,#fff,#f6f3ef);
+}
+
+.hero-left h1{
+font-size:65px;
+line-height:1.1;
+margin:20px 0;
+}
+
+.hero-left p{
+font-size:18px;
+color:#666;
+margin-bottom:35px;
+line-height:1.8;
+}
+
+.tag{
+display:inline-block;
+background:#111;
+color:#fff;
+padding:10px 18px;
+border-radius:40px;
+font-size:14px;
+}
+
+.hero-buttons{
+display:flex;
+gap:18px;
+}
+
+.btn{
+background:#b8860b;
+color:#fff;
+padding:15px 35px;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#8c6506;
+}
+
+.btn-outline{
+border:2px solid #b8860b;
+padding:15px 35px;
+border-radius:50px;
+font-weight:600;
+}
+
+.btn-outline:hover{
+background:#b8860b;
+color:#fff;
+}
+
+.hero-right img{
+max-width:520px;
+margin:auto;
+animation:float 5s infinite;
+}
+
+@keyframes float{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+  }
+/*==========================
+CATEGORY SECTION
+==========================*/
+
+.category{
+padding:90px 8%;
+background:#fff;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-title h2{
+font-size:42px;
+font-weight:700;
+margin-bottom:10px;
+}
+
+.section-title p{
+color:#666;
+font-size:17px;
+}
+
+.category-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:#fff;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.4s;
+position:relative;
+}
+
+.card:hover{
+transform:translateY(-12px);
+box-shadow:0 25px 60px rgba(0,0,0,.15);
+}
+
+.card img{
+height:380px;
+width:100%;
+object-fit:cover;
+transition:.5s;
+}
+
+.card:hover img{
+transform:scale(1.08);
+}
+
+.card-content{
+padding:25px;
+text-align:center;
+}
+
+.card-content h3{
+font-size:28px;
+margin-bottom:10px;
+}
+
+.card-content p{
+color:#777;
+margin-bottom:20px;
+}
+
+.shop-btn{
+display:inline-block;
+padding:12px 30px;
+background:#111;
+color:#fff;
+border-radius:40px;
+transition:.3s;
+}
+
+.shop-btn:hover{
+background:#b8860b;
+}
+
+/*==========================
+PRODUCTS
+==========================*/
+
+.featured{
+padding:90px 8%;
+background:#f8f8f8;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:35px;
+}
+
+.product-card{
+background:#fff;
+border-radius:20px;
+overflow:hidden;
+padding-bottom:25px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+transition:.4s;
+position:relative;
+}
+
+.product-card:hover{
+transform:translateY(-10px);
+}
+
+.product-card img{
+height:
+  /*==========================
+OFFER BANNER
+==========================*/
+
+.offer-banner{
+    width:90%;
+    max-width:1400px;
+    margin:100px auto;
+    padding:70px;
+    border-radius:30px;
+    background:linear-gradient(135deg,#111,#2a2a2a);
+    color:#fff;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:60px;
+}
+
+.offer-text h2{
+    font-size:50px;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.offer-text p{
+    color:#ddd;
+    line-height:1.8;
+    margin-bottom:30px;
+    font-size:17px;
+}
+
+.offer-text .btn{
+    display:inline-block;
+    background:#d4af37;
+    color:#111;
+    padding:15px 35px;
+    border-radius:50px;
+    font-weight:700;
+    transition:.3s;
+}
+
+.offer-text .btn:hover{
+    background:#fff;
+}
+
+.offer-image img{
+    width:100%;
+    max-width:450px;
+    margin:auto;
+}
+
+/*==========================
+ABOUT SECTION
+==========================*/
+
+.about{
+    width:90%;
+    max-width:1400px;
+    margin:100px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:60px;
+}
+
+.about-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.about-content span{
+    color:#b8860b;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.about-content h2{
+    font-size:45px;
+    margin:20px 0;
+}
+
+.about-content p{
+    color:#666;
+    line-height:1.9;
+    margin-bottom:30px;
+}
+
+/*==========================
+NEWSLETTER
+==========================*/
+
+.newsletter{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:90px 20px;
+}
+
+.newsletter h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.newsletter p{
+    color:#ddd;
+    margin-bottom:30px;
+}
+
+.newsletter form{
+    max-width:650px;
+    margin:auto;
+    display:flex;
+    gap:15px;
+}
+
+.newsletter input{
+    flex:1;
+    padding:16px 20px;
+    border:none;
+    border-radius:50px;
+    outline:none;
+}
+
+.newsletter button{
+    padding:16px 35px;
+    border:none;
+    border-radius:50px;
+    background:#d4af37;
+    color:#111;
+    font-weight:700;
+    cursor:pointer;
+}
