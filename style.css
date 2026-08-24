@@ -480,3 +480,8 @@ NEWSLETTER
     font-weight:700;
     cursor:pointer;
 }
+header.sticky{
+    background:#ffffff;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+    transition:.3s;
+}
