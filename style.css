@@ -545,3 +545,94 @@ nav{
 }
 
 }
+/* FOOTER */
+
+footer{
+    background:#111;
+    color:#fff;
+    padding:60px 8% 20px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.footer-container ul{
+    list-style:none;
+}
+
+.footer-container ul li{
+    margin:10px 0;
+}
+
+.footer-container a{
+    color:#ddd;
+}
+
+.social{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+
+.social a{
+    width:45px;
+    height:45px;
+    background:#222;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    transition:.3s;
+}
+
+.social a:hover{
+    background:#b8860b;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:40px;
+    border-top:1px solid #333;
+    padding-top:20px;
+    color:#aaa;
+}
+
+/* WhatsApp */
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:90px;
+    width:55px;
+    height:55px;
+    background:#25D366;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    text-decoration:none;
+    z-index:999;
+}
+
+/* Back To Top */
+
+#topBtn{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#111;
+    color:#fff;
+    cursor:pointer;
+    display:none;
+    font-size:20px;
+    z-index:999;
+}
